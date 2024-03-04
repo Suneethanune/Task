@@ -1,0 +1,5 @@
+Build the Docker Image:
+docker build -t my-flask-api .
+
+Run the Docker Container:
+docker run -p 4000:80 my-flask-api
